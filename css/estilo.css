@@ -1,0 +1,38 @@
+@font-face{
+	font-family: "roboto";
+	src:url("../fuentes/roboto-regular-webfont.woff");
+}
+
+body{
+	font-family: "roboto";
+	color: #000000;
+}
+
+.letra-navbar{
+	font-family: "roboto";
+	color: #000000;
+	font-weight: bold;
+}
+
+
+
+/*-------------Estilos responsivos------------*/
+@media(min-width: 280px){
+
+}
+
+@media(min-width: 480px){
+
+}
+
+@media(min-width: 768px){
+
+}
+
+@media(min-width: 1024px){
+
+}
+
+@media(min-width: 1280px){
+
+}
