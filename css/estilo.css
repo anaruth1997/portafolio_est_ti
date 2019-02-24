@@ -82,6 +82,18 @@ box-shadow: 0px 4px 11px -5px rgba(0,0,0,0.71);
 	width: 100%;
 }
 
+.titulo-unidad{
+	font-weight: bold;
+	text-align: center;
+
+}
+
+.texto-unidad{
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
 
 /*-------------Estilos responsivos------------*/
 @media(min-width: 280px){
@@ -95,6 +107,18 @@ box-shadow: 0px 4px 11px -5px rgba(0,0,0,0.71);
 .texto2-centrado{
 	font-size: 10px;
 	background-color: rgba(255, 255, 255, 0.82);
+}
+
+.titulo-unidad{
+	font-size: 12px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.texto-unidad{
+	font-size: 10px;
+	padding-top: 0px;
+	margin-top: 0px;
 }
 
 
@@ -113,6 +137,19 @@ box-shadow: 0px 4px 11px -5px rgba(0,0,0,0.71);
 .texto2-centrado{
 	margin-top: 50px;
 }
+
+.titulo-unidad{
+	font-size: 16px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.texto-unidad{
+	font-size: 12px;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
 }
 
 @media(min-width: 768px){
@@ -127,6 +164,15 @@ box-shadow: 0px 4px 11px -5px rgba(0,0,0,0.71);
 	font-size: 19px;
 }
 
+.titulo-unidad{
+	font-size: 18px;
+	padding-top: 5px;
+	padding-bottom: 0px;
+}
+
+
+
+
 }
 
 @media(min-width: 1024px){
@@ -139,6 +185,20 @@ box-shadow: 0px 4px 11px -5px rgba(0,0,0,0.71);
 	padding-top: 10px;
 	font-size: 22px;
 }
+
+.titulo-unidad{
+	font-size: 25px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.texto-unidad{
+	font-size: 16px;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+
 }
 
 @media(min-width: 1280px){
