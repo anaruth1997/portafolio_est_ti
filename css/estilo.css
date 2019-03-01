@@ -45,13 +45,14 @@ box-shadow: 0px 4px 11px -5px rgba(0,0,0,0.71);
 
 .img-banner1{
 	//background: url(../imagenes/banner1.jpg);
-	width: 100%;
+	width: 100%; /*aumente 100% al img del banner 1*/
 }
 
 .contenedor-banner{
 	position: relative;
 	display: inline-block;
 	text-align: center;
+	width: 100%; /*aumente 100% el contenedor banner del img del banner 1*/
 }
 
 .texto1-centrado{
