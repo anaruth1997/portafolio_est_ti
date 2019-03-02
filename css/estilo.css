@@ -197,6 +197,11 @@ font-weight: bold;
 	font-size: 20px;
 }
 
+.esp-boton{
+	margin-top: 10px;
+}
+
+
 }
 
 @media(min-width: 480px){
@@ -229,6 +234,9 @@ font-weight: bold;
 	font-size: 25px;
 }
 
+.esp-boton{
+	margin-top: 0px;
+}
 
 }
 
