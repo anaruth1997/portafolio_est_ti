@@ -130,6 +130,20 @@ box-shadow: 0px 4px 11px -5px rgba(0,0,0,0.71);
 	margin-bottom: 15px;
 }
 
+.img-au:hover{
+	filter: grayscale(0%);
+	
+
+}
+
+.img-act{
+	width: 96%;
+	border-radius: 10%;
+}
+
+.img-act:hover{
+	width: 88%;
+}
 
 .img-cur{
 	width: 70%;
@@ -137,13 +151,6 @@ box-shadow: 0px 4px 11px -5px rgba(0,0,0,0.71);
 	box-shadow: 5px 2px 5px 2px rgba(113, 114, 115, 0.52);
 	margin-top: 10px;
 	margin-bottom: 15px;
-}
-
-
-.img-au:hover{
-	filter: grayscale(0%);
-	
-
 }
 
 .nombre-au{
@@ -165,6 +172,10 @@ font-weight: bold;
 
 .texto-justificado{
 	text-align: justify;
+}
+
+.texto-centrado{
+	text-align: center;
 }
 
 /*-------------Estilos responsivos------------*/
