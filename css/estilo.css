@@ -178,6 +178,37 @@ font-weight: bold;
 	text-align: center;
 }
 
+.imagen-tarea{
+	width: 80%;
+	margin-top: 10px;
+}
+
+.barra-menu{
+	width: 100%;
+	background-color: #4CBFF4;
+	padding-top: 1px;
+	border-radius: 50px 50px 50px 50px;
+
+	
+}
+
+.titulo-unit{
+	font-weight: bold;
+}
+
+.classul{
+	list-style: none;
+	margin-top: 5px;
+}
+
+.menu-vertical{
+	margin-top: 5px;
+}
+
+.texto-tarea{
+	font-weight: bold;
+}
+
 /*-------------Estilos responsivos------------*/
 @media(min-width: 280px){
 
@@ -210,6 +241,16 @@ font-weight: bold;
 
 .esp-boton{
 	margin-top: 10px;
+}
+
+.texto-tarea{
+	font-size: 12px;
+	padding-top: 2px;
+	margin-top: 10px;
+}
+
+.barra-menu{
+	margin-top: 25px;
 }
 
 
@@ -249,6 +290,12 @@ font-weight: bold;
 	margin-top: 0px;
 }
 
+.texto-tarea{
+	font-size: 14px;
+	padding-top: 2px;
+	margin-top: 10px;
+}
+
 }
 
 @media(min-width: 768px){
@@ -275,6 +322,16 @@ font-weight: bold;
 
 .img-cur{
 	margin-top: 100px;
+}
+
+.texto-tarea{
+	font-size: 16px;
+	padding-top: 2px;
+	margin-top: 10px;
+}
+
+.barra-menu{
+	margin-top: 0px;
 }
 
 
