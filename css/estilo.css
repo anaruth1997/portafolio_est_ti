@@ -194,6 +194,7 @@ font-weight: bold;
 
 .titulo-unit{
 	font-weight: bold;
+
 }
 
 .classul{
@@ -201,13 +202,36 @@ font-weight: bold;
 	margin-top: 5px;
 }
 
-.menu-vertical{
-	margin-top: 5px;
+.classul:hover{
+list-style-image: url('../imagenes/flecha1.png'); 
+}
+
+.menu-cont:hover{
+font-weight: bold;
+
 }
 
 .texto-tarea{
 	font-weight: bold;
 }
+
+.contenedor-menutar{
+	width: 100%;
+	background: rgba(80, 182, 250, 0.53);
+	border-radius: 5px 5px 5px 5px;
+}
+
+.backmenu{
+	float: right;
+	margin-top: 15px;
+	color: black;
+}
+
+.backmenu:hover{
+color: black;
+text-decoration: underline;
+}
+
 
 /*-------------Estilos responsivos------------*/
 @media(min-width: 280px){
@@ -253,6 +277,13 @@ font-weight: bold;
 	margin-top: 25px;
 }
 
+.menu-vertical{
+	margin-top: 10px;
+}
+
+.backmenu{
+	font-size: 12px;
+}
 
 }
 
@@ -331,10 +362,16 @@ font-weight: bold;
 }
 
 .barra-menu{
-	margin-top: 0px;
+	margin-top: 20px;
 }
 
+.menu-vertical{
+	margin-top: 5px;
+}
 
+.backmenu{
+	font-size: 15px;
+}
 }
 
 @media(min-width: 1024px){
