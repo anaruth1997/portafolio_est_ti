@@ -130,6 +130,20 @@ box-shadow: 0px 4px 11px -5px rgba(0,0,0,0.71);
 	margin-bottom: 15px;
 }
 
+.img-au:hover{
+	filter: grayscale(0%);
+	
+
+}
+
+.img-act{
+	width: 96%;
+	border-radius: 10%;
+}
+
+.img-act:hover{
+	width: 88%;
+}
 
 .img-cur{
 	width: 70%;
@@ -137,13 +151,6 @@ box-shadow: 0px 4px 11px -5px rgba(0,0,0,0.71);
 	box-shadow: 5px 2px 5px 2px rgba(113, 114, 115, 0.52);
 	margin-top: 10px;
 	margin-bottom: 15px;
-}
-
-
-.img-au:hover{
-	filter: grayscale(0%);
-	
-
 }
 
 .nombre-au{
@@ -166,6 +173,65 @@ font-weight: bold;
 .texto-justificado{
 	text-align: justify;
 }
+
+.texto-centrado{
+	text-align: center;
+}
+
+.imagen-tarea{
+	width: 80%;
+	margin-top: 10px;
+}
+
+.barra-menu{
+	width: 100%;
+	background-color: #4CBFF4;
+	padding-top: 1px;
+	border-radius: 50px 50px 50px 50px;
+
+	
+}
+
+.titulo-unit{
+	font-weight: bold;
+
+}
+
+.classul{
+	list-style: none;
+	margin-top: 5px;
+}
+
+.classul:hover{
+list-style-image: url('../imagenes/flecha1.png'); 
+}
+
+.menu-cont:hover{
+font-weight: bold;
+
+}
+
+.texto-tarea{
+	font-weight: bold;
+}
+
+.contenedor-menutar{
+	width: 100%;
+	background: rgba(80, 182, 250, 0.53);
+	border-radius: 5px 5px 5px 5px;
+}
+
+.backmenu{
+	float: right;
+	margin-top: 15px;
+	color: black;
+}
+
+.backmenu:hover{
+color: black;
+text-decoration: underline;
+}
+
 
 /*-------------Estilos responsivos------------*/
 @media(min-width: 280px){
@@ -195,6 +261,28 @@ font-weight: bold;
 
 .titulo-au{
 	font-size: 20px;
+}
+
+.esp-boton{
+	margin-top: 10px;
+}
+
+.texto-tarea{
+	font-size: 12px;
+	padding-top: 2px;
+	margin-top: 10px;
+}
+
+.barra-menu{
+	margin-top: 25px;
+}
+
+.menu-vertical{
+	margin-top: 10px;
+}
+
+.backmenu{
+	font-size: 12px;
 }
 
 }
@@ -229,6 +317,15 @@ font-weight: bold;
 	font-size: 25px;
 }
 
+.esp-boton{
+	margin-top: 0px;
+}
+
+.texto-tarea{
+	font-size: 14px;
+	padding-top: 2px;
+	margin-top: 10px;
+}
 
 }
 
@@ -258,7 +355,23 @@ font-weight: bold;
 	margin-top: 100px;
 }
 
+.texto-tarea{
+	font-size: 16px;
+	padding-top: 2px;
+	margin-top: 10px;
+}
 
+.barra-menu{
+	margin-top: 20px;
+}
+
+.menu-vertical{
+	margin-top: 5px;
+}
+
+.backmenu{
+	font-size: 15px;
+}
 }
 
 @media(min-width: 1024px){
