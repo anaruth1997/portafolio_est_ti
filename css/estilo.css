@@ -323,11 +323,11 @@ text-decoration: underline;
 	font-size: 12px;
 }
 
-
 .dimension{
 	width:100%; 
-	height:100px;
+	height:200px;
 }
+
 
 }
 
@@ -373,7 +373,7 @@ text-decoration: underline;
 
 .dimension{
 	width:100%; 
-	height:400px;
+	height:300px;
 }
 
 }
@@ -454,6 +454,12 @@ text-decoration: underline;
 	height:480px;
 }
 
+.dimension{
+	width:100%; 
+	height:400px;
+}
+
+
 }
 
 @media(min-width: 1280px){
@@ -466,4 +472,11 @@ text-decoration: underline;
 	padding-top: 10px;
 	font-size: 25px;
 }
+
+.dimension{
+	width:100%; 
+	height:480px;
+}
+
+
 }
